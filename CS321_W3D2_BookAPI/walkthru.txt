@@ -1,5 +1,5 @@
 ﻿1. Add the Microsoft.EntityFrameworkCore.Sqlite package to the project.
-1. Add an Author model.
+1. Add an Author model with the following properties: Id, FirstName, LastName, BirthDate, and a Books collection.
 1. Add an Author navigation property to Book.
 1. Configure Json serialization settings in Startup ConfigureServices.
 
